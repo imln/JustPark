@@ -1,4 +1,4 @@
-package com.justpark.vehicles;
+package com.justpark.models.vehicles;
 
 public enum VehicleType {
     CAR,
