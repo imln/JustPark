@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.justpark.Main</OriginalElement>
+  <nodes>
+    <node x="1254.0166592088472" y="980.0">com.justpark.models.parking.spot.CompactSpot</node>
+    <node x="3475.5463912575524" y="419.0">com.justpark.models.parking.interfaces.IssuesTicket</node>
+    <node x="230.77205824433486" y="272.0">com.justpark.models.vehicles.VehicleType</node>
+    <node x="1132.8397361319242" y="418.0">com.justpark.exceptions.MalformedVehicleException</node>
+    <node x="457.1161098772254" y="107.0">com.justpark.models.parking.spot.SpotType</node>
+    <node x="3326.1479280590434" y="0.0">com.justpark.models.DBObject</node>
+    <node x="1176.6327883128765" y="694.0">com.justpark.models.vehicles.Car</node>
+    <node x="4465.7894813519815" y="272.0">com.justpark.models.people.Person.Builder</node>
+    <node x="2685.273069465258" y="695.0">com.justpark.models.electronics.EntrancePanel</node>
+    <node x="470.58799533799447" y="980.0">com.justpark.models.parking.spot.HandicappedSpot</node>
+    <node x="3853.8693079242194" y="1177.0">com.justpark.models.parking.ParkingLot</node>
+    <node x="3580.8693079242194" y="1176.0">com.justpark.models.accounts.Admin</node>
+    <node x="3389.0463912575524" y="695.0">com.justpark.models.electronics.AutoExitPanel</node>
+    <node x="921.9538764261531" y="694.0">com.justpark.models.vehicles.Van</node>
+    <node x="4202.046391257552" y="694.0">com.justpark.models.accounts.Customer</node>
+    <node x="918.8397361319242" y="418.0">com.justpark.models.vehicles.Vehicle</node>
+    <node x="3770.0463912575524" y="981.0">com.justpark.models.parking.gate.Gate</node>
+    <node x="4159.814594725711" y="1.0">com.justpark.models.accounts.AccountStatus</node>
+    <node x="3470.3979280590434" y="273.0">com.justpark.models.parking.ticket.Ticket</node>
+    <node x="668.9538764261531" y="694.0">com.justpark.models.vehicles.Electric</node>
+    <node x="4637.796391257552" y="106.0">com.justpark.models.Address</node>
+    <node x="801.9538764261531" y="694.0">com.justpark.models.vehicles.Truck</node>
+    <node x="4059.1479280590434" y="106.0">com.justpark.models.accounts.Account</node>
+    <node x="1978.7730694652578" y="695.0">com.justpark.models.electronics.DisplayBoard</node>
+    <node x="4131.546391257552" y="418.0">com.justpark.models.people.Person</node>
+    <node x="2181.1297245908854" y="419.0">com.justpark.models.parking.interfaces.HasDisplay</node>
+    <node x="127.58799533799447" y="980.0">com.justpark.models.parking.spot.LargeSpot</node>
+    <node x="3820.5463912575524" y="694.0">com.justpark.models.accounts.Attendant</node>
+    <node x="2880.0463912575524" y="695.0">com.justpark.models.electronics.CustomerInfoPortal</node>
+    <node x="510.9538764261529" y="694.0">com.justpark.models.vehicles.Motorcycle</node>
+    <node x="2671.129724590886" y="419.0">com.justpark.models.electronics.Electronics</node>
+    <node x="1430.0166592088472" y="980.0">com.justpark.models.parking.spot.ElectricSpot</node>
+    <node x="1760.8397361319242" y="419.0">com.justpark.models.parking.spot.SpotStatus</node>
+    <node x="4497.046391257552" y="695.0">com.justpark.models.parking.gate.GateType</node>
+    <node x="1670.6479280590434" y="695.0">com.justpark.models.electronics.ChargingPanel</node>
+    <node x="4705.421391257552" y="272.0">com.justpark.models.Address.Builder</node>
+    <node x="280.58799533799447" y="980.0">com.justpark.models.parking.spot.MotorcycleSpot</node>
+    <node x="2018.1297245908859" y="980.0">com.justpark.models.parking.floor.Floor</node>
+    <node x="4629.046391257552" y="695.0">com.justpark.Main</node>
+    <node x="1281.6327883128765" y="694.0">com.justpark.models.parking.spot.Spot</node>
+    <node x="2331.7963912575524" y="1176.0">com.justpark.models.parking.floor.GroundFloor</node>
+    <node x="1452.8397361319242" y="418.0">com.justpark.exceptions.SpotAlreadyFreeException</node>
+    <node x="3092.0463912575524" y="694.0">com.justpark.exceptions.SpotNotAddedException</node>
+    <node x="3446.3979280590434" y="107.0">com.justpark.models.parking.ticket.TicketStatus</node>
+    <node x="3639.5463912575524" y="419.0">com.justpark.models.parking.interfaces.PaymentEnabled</node>
+    <node x="2329.129724590886" y="418.0">com.justpark.exceptions.SpotAlreadyOccupiedException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.justpark.models.electronics.CustomerInfoPortal" target="com.justpark.models.parking.interfaces.PaymentEnabled">
+      <point x="64.0" y="-27.0" />
+      <point x="3040.0463912575524" y="664.0" />
+      <point x="3659.5463912575524" y="664.0" />
+      <point x="-60.0" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.accounts.Account" target="com.justpark.models.DBObject">
+      <point x="-88.33333333333348" y="-28.0" />
+      <point x="4103.31459472571" y="76.0" />
+      <point x="3442.2479280590433" y="76.0" />
+      <point x="51.59999999999991" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.vehicles.Motorcycle" target="com.justpark.models.vehicles.Vehicle">
+      <point x="46.0" y="-28.0" />
+      <point x="625.9538764261529" y="614.0" />
+      <point x="941.2243515165396" y="614.0" />
+      <point x="-74.61538461538464" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.parking.spot.LargeSpot" target="com.justpark.models.parking.spot.Spot">
+      <point x="44.33333333333337" y="-28.0" />
+      <point x="238.42132867132796" y="910.0" />
+      <point x="1299.8635575436458" y="910.0" />
+      <point x="-60.76923076923072" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.DisplayBoard" target="com.justpark.models.parking.interfaces.HasDisplay">
+      <point x="-36.0" y="-27.0" />
+      <point x="2014.7730694652578" y="634.0" />
+      <point x="2213.1297245908854" y="634.0" />
+      <point x="-32.0" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.parking.floor.GroundFloor" target="com.justpark.models.parking.floor.Floor">
+      <point x="-24.0" y="-28.0" />
+      <point x="2403.7963912575524" y="1146.0" />
+      <point x="2060.129724590886" y="1146.0" />
+      <point x="-28.0" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.vehicles.Car" target="com.justpark.models.vehicles.Vehicle">
+      <point x="28.33333333333337" y="-28.0" />
+      <point x="1247.46612164621" y="544.0" />
+      <point x="1060.6089669011549" y="544.0" />
+      <point x="44.76923076923072" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.accounts.Attendant" target="com.justpark.models.parking.interfaces.IssuesTicket">
+      <point x="-116.25" y="-28.0" />
+      <point x="3843.7963912575524" y="654.0" />
+      <point x="3583.5463912575524" y="654.0" />
+      <point x="36.0" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.parking.spot.HandicappedSpot" target="com.justpark.models.parking.spot.Spot">
+      <point x="61.666666666666686" y="-28.0" />
+      <point x="624.754662004661" y="950.0" />
+      <point x="1348.4789421590303" y="950.0" />
+      <point x="-12.153846153846189" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.DisplayBoard" target="com.justpark.models.electronics.Electronics">
+      <point x="36.0" y="-27.0" />
+      <point x="2086.773069465258" y="674.0" />
+      <point x="2727.7963912575524" y="674.0" />
+      <point x="-11.333333333333485" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.vehicles.Electric" target="com.justpark.models.vehicles.Vehicle">
+      <point x="37.666666666666686" y="-28.0" />
+      <point x="763.1205430928198" y="634.0" />
+      <point x="971.0705053626934" y="634.0" />
+      <point x="-44.76923076923072" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.AutoExitPanel" target="com.justpark.models.electronics.Electronics">
+      <point x="-50.666666666666515" y="-27.0" />
+      <point x="3414.379724590886" y="624.0" />
+      <point x="2795.7963912575524" y="624.0" />
+      <point x="56.666666666666515" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.ChargingPanel" target="com.justpark.models.electronics.Electronics">
+      <point x="0.0" y="-27.0" />
+      <point x="1746.6479280590434" y="654.0" />
+      <point x="2682.4630579242194" y="654.0" />
+      <point x="-56.666666666666515" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.Electronics" target="com.justpark.models.DBObject">
+      <point x="0.0" y="-27.0" />
+      <point x="2739.129724590886" y="86.0" />
+      <point x="3364.847928059043" y="86.0" />
+      <point x="-25.800000000000182" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.accounts.Attendant" target="com.justpark.models.parking.interfaces.PaymentEnabled">
+      <point x="-69.75" y="-28.0" />
+      <point x="3890.2963912575524" y="644.0" />
+      <point x="3779.5463912575524" y="644.0" />
+      <point x="60.0" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.EntrancePanel" target="com.justpark.models.parking.interfaces.HasDisplay">
+      <point x="-57.0" y="-27.0" />
+      <point x="2704.273069465258" y="634.0" />
+      <point x="2277.1297245908854" y="634.0" />
+      <point x="32.0" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.AutoExitPanel" target="com.justpark.models.parking.interfaces.PaymentEnabled">
+      <point x="50.666666666666515" y="-27.0" />
+      <point x="3515.713057924219" y="674.0" />
+      <point x="3699.5463912575524" y="674.0" />
+      <point x="-20.0" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.people.Person" target="com.justpark.models.DBObject">
+      <point x="-72.0" y="-28.0" />
+      <point x="4139.546391257552" y="348.0" />
+      <point x="3790.126981351981" y="348.0" />
+      <point x="3790.126981351981" y="86.0" />
+      <point x="3416.4479280590435" y="86.0" />
+      <point x="25.800000000000182" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.accounts.Admin" target="com.justpark.models.accounts.Account">
+      <point x="79.06250000000011" y="-28.0" />
+      <point x="3786.4318079242194" y="1126.0" />
+      <point x="4121.046391257552" y="1126.0" />
+      <point x="4121.046391257552" y="252.0" />
+      <point x="4136.43959472571" y="252.0" />
+      <point x="-55.208333333333485" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.vehicles.Van" target="com.justpark.models.vehicles.Vehicle">
+      <point x="29.666666666666686" y="-28.0" />
+      <point x="996.1205430928198" y="674.0" />
+      <point x="1030.762813055001" y="674.0" />
+      <point x="14.923076923076906" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.CustomerInfoPortal" target="com.justpark.models.electronics.Electronics">
+      <point x="-64.0" y="-27.0" />
+      <point x="2912.0463912575524" y="634.0" />
+      <point x="2773.129724590886" y="634.0" />
+      <point x="34.0" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.EntrancePanel" target="com.justpark.models.electronics.Electronics">
+      <point x="-19.0" y="-27.0" />
+      <point x="2742.273069465258" y="674.0" />
+      <point x="2750.4630579242194" y="674.0" />
+      <point x="11.333333333333485" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.parking.spot.ElectricSpot" target="com.justpark.models.parking.spot.Spot">
+      <point x="0.0" y="-28.0" />
+      <point x="1502.5166592088472" y="840.0" />
+      <point x="1409.248172928261" y="840.0" />
+      <point x="48.61538461538453" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.parking.spot.Spot" target="com.justpark.models.DBObject">
+      <point x="23.700000000000045" y="-28.0" />
+      <point x="1384.3327883128766" y="614.0" />
+      <point x="1750.3397361319242" y="614.0" />
+      <point x="1750.3397361319242" y="348.0" />
+      <point x="2534.0979280590436" y="348.0" />
+      <point x="2534.0979280590436" y="76.0" />
+      <point x="3339.0479280590434" y="76.0" />
+      <point x="-51.59999999999991" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.electronics.EntrancePanel" target="com.justpark.models.parking.interfaces.IssuesTicket">
+      <point x="57.0" y="-27.0" />
+      <point x="2818.273069465258" y="654.0" />
+      <point x="3511.5463912575524" y="654.0" />
+      <point x="-36.0" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.parking.spot.MotorcycleSpot" target="com.justpark.models.parking.spot.Spot">
+      <point x="0.0" y="-28.0" />
+      <point x="365.58799533799447" y="920.0" />
+      <point x="1312.0174036974918" y="920.0" />
+      <point x="-48.61538461538464" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.accounts.Customer" target="com.justpark.models.accounts.Account">
+      <point x="103.125" y="-28.0" />
+      <point x="4442.671391257552" y="674.0" />
+      <point x="4425.897928059043" y="674.0" />
+      <point x="4425.897928059043" y="242.0" />
+      <point x="4268.93959472571" y="242.0" />
+      <point x="77.29166666666652" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.parking.gate.Gate" target="com.justpark.models.DBObject">
+      <point x="-35.55555555555566" y="-27.0" />
+      <point x="3774.4908357019967" y="960.0" />
+      <point x="3378.5463912575524" y="960.0" />
+      <point x="3378.5463912575524" y="86.0" />
+      <point x="3390.6479280590434" y="86.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.accounts.Attendant" target="com.justpark.models.accounts.Account">
+      <point x="69.75" y="-28.0" />
+      <point x="4029.7963912575524" y="674.0" />
+      <point x="4011.1979280590435" y="674.0" />
+      <point x="4011.1979280590435" y="252.0" />
+      <point x="4092.2729280590434" y="252.0" />
+      <point x="-99.375" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.vehicles.Truck" target="com.justpark.models.vehicles.Vehicle">
+      <point x="33.33333333333337" y="-28.0" />
+      <point x="885.2872097594864" y="654.0" />
+      <point x="1000.9166592088472" y="654.0" />
+      <point x="-14.923076923076906" y="28.0" />
+    </edge>
+    <edge source="com.justpark.models.parking.gate.Gate" target="com.justpark.models.parking.interfaces.PaymentEnabled">
+      <point x="-8.888888888888687" y="-27.0" />
+      <point x="3801.1575023686637" y="930.0" />
+      <point x="3739.5463912575524" y="930.0" />
+      <point x="19.999999999999886" y="27.0" />
+    </edge>
+    <edge source="com.justpark.models.parking.spot.CompactSpot" target="com.justpark.models.parking.spot.Spot">
+      <point x="51.666666666666686" y="-28.0" />
+      <point x="1383.183325875514" y="960.0" />
+      <point x="1372.7866344667227" y="960.0" />
+      <point x="12.153846153846189" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.20993419656123966" x="2472.5" y="616.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
